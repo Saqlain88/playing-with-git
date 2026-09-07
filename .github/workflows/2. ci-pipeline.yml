@@ -1,0 +1,18 @@
+name: Project 2 - CI Pipeline
+
+on:
+    push:
+        branches:
+            - feature/second
+    pull_request:
+        types: [opened, reopened, synchronize]
+        paths:
+            - 'src/**'
+        branches:
+            - feature/first
+
+jobs:
+    job1:
+        runs-on: ubuntu-24.04
+        steps:
+        - run: echo "Second CI Pipeline to check the changes in the src folder"
