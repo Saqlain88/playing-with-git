@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-app = FastAPI(title="GitHub Actions Demo API")
+app = FastAPI(title="GitHub Actions API")
 
 
 @app.get("/")
