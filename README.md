@@ -15,3 +15,5 @@ To run tests:
 ```bash
 python.exe -m pytest -q
 ```
+
+EOF
