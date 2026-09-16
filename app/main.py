@@ -31,5 +31,3 @@ def get_tasks():
             "completed": False,
         },
     ]
-
-    unused_variable = "hello"
